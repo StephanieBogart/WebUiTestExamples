@@ -10,6 +10,7 @@ fixture `Authentication Tests`
     .page `https://parabank.parasoft.com/parabank/index.htm`
 
 test('User can successfully log in', async t => {
+    // In a full CI Environment, these login credentials should be stored in CI and outside of code
     const validUserName = "john"
     const validPassword = "demo"
     const userName = "John Smith"
