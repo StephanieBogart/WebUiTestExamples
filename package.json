@@ -1,0 +1,22 @@
+{
+  "name": "webuitestexample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StephanieBogart/WebUiTestExamples.git"
+  },
+  "author": "Stephanie Bogart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StephanieBogart/WebUiTestExamples/issues"
+  },
+  "homepage": "https://github.com/StephanieBogart/WebUiTestExamples#readme",
+  "devDependencies": {
+    "cypress": "^5.3.0"
+  }
+}
